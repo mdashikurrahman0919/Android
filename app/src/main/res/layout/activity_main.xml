@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText"
+    android:padding="20dp"
+    android:background="#acacac"
+    >
+
+
+   >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:text="Bangladesh is Beautiful"
+        android:textColor="#FFFFFFFF"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:background="@color/pap"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:src="@drawable/cover"
+        android:scaleType="fitXY"
+        android:padding="5dp"
+        android:layout_marginVertical="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bangladesh is a real river country, threaded together by over 700 rivers. In fact, three of the largest rivers in Asia flow through Bangladesh – the Ganges, the Meghna and the Brahmaputra. This makes for a lush green landscape, with an impressive diversity of wildlife."
+        android:background="#000000"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:gravity="left"
+     />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:gravity="center"
+        android:text="Click here for more infromation"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/tiger"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/cover"
+        />
+
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:gravity="center"
+     android:text="bangladeshi Tiger"
+     android:background="#e31432"
+     android:textColor="@color/white"
+     />
+
+ <Button
+     android:layout_width="330dp"
+     android:layout_height="60dp"
+     android:gravity="center"
+     android:text="Click here"
+     android:layout_marginHorizontal="20dp"
+     android:textSize="20sp"
+     />
+
+ <Button
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:gravity="center"
+     android:text="more..."
+     />
+
+</LinearLayout>
